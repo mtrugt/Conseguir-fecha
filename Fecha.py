@@ -1,6 +1,6 @@
 import datetime
 
-Hora_fecha = datetime.datetime.now()
-
-print(Hora_fecha)
-
+def Fecha():
+ x = datetime.datetime.now()
+ L = [x.day, x.month]
+ return L
